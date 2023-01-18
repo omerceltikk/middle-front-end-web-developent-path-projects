@@ -1,0 +1,6 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+#content{
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+}
