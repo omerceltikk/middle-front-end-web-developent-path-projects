@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  background-color: #ffc107;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button{
+  border: #F0E161;
+  display: inline;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffe600;
+  box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.47);
+  cursor: pointer;
+}
+h1{
+  font-weight: 500;
+  font-size: 40px;
+  display: inline;
+  /* margin: 30px; */
+}
+.App {
+  margin-top: 40px;
+  text-align: center;
+  justify-content: inline;
+  display: flex;
+}
+textarea{
+  padding: 15px;
+  font-size: 25px;
+  justify-content: space-between;
+  resize: none;
+  width: 600px;
+  margin: 40px;
+  height: 700px;
+  background-color: #ffcd38;
+  border: 1px solid rgba(0,0,0,0.2) ;
+  overflow: auto;
+  box-shadow: 18px 18px 2px 0px rgba(0,0,0,0.47);
+}
+.right{
+  text-align: start;
+  padding: 15px;
+  font-size: 25px;
+  resize: none;
+  width: 600px;
+  max-width: 700px;
+  margin: 40px;
+  height: 700px;
+  background-color: #ffcd38;
+  border: 1px solid rgba(0,0,0,0.2) ;
+  overflow: auto;
+  box-shadow: 18px 18px 2px 0px rgba(0,0,0,0.47);
+}
