@@ -1,0 +1,57 @@
+
+.App {
+  text-align: center;
+}
+.box{
+  margin: 10px;
+  
+  width: 40%;
+  background-color: #AEE2FF;
+  border-radius: 10px;
+}
+.heading{
+  
+  display: flex;
+  justify-content: center;
+}
+.header{
+  display: flex;
+  margin: 50px;
+  margin-left: 30px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.textInput{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.wordsArea{
+  width: 90%;
+  background-color: #FFFBF5;
+  margin: 20px;
+  margin-top: 10px;
+  height: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset -14px 12px 20px -11px rgba(0,0,0,0.5);
+  overflow: auto;
+}
+.inputArea {
+  display: flex;
+  justify-content: center;
+}
+.set {
+  background-color: #dddddd;
+}
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.incorrect {
+  color: red!important;
+}
